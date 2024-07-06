@@ -17,33 +17,36 @@ A simple GST Management System built with Node.js, Express, React, and MongoDB.
 ## Installation
 
 1. **Clone the repository:**
-2. git clone https://github.com/shone0106/sphota-task
+   ```bash
+   git clone https://github.com/shone0106/sphota-task
    cd GST-CALCULATOR
 
 3. **Install dependencies:**
+   ```bash
    cd client
    npm i
    cd server
    npm i
 
-4. **Set up environment variables:**
-   Create a .env file in the root directory with the following content:
-   MONGODB_URI=your-mongodb-connection-string
-   SESSION_SECRET=your-session-secret
+5. **Set up environment variables:**
+   - Create a .env file in the root directory with the following content:
+   - MONGODB_URI=your-mongodb-connection-string
+   - SESSION_SECRET=your-session-secret
 
-5. **Start client and server:**
+6. **Start client and server:**
+   ```bash
    cd server
    npm run dev
    cd client
    npm start
 
-6. **Usage**
-Open your browser and navigate to http://localhost:3000.
-For admin operations, log in with:
-Name: admin
-Password: admin
+8. **Usage**
+- Open your browser and navigate to http://localhost:3000.
+- For admin operations, log in with:
+  Name: admin
+  Password: admin
 
-For customer operations, register with new credentials. name should be unique
+- For customer operations, register with new credentials. name should be unique
 
 
 

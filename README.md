@@ -42,11 +42,8 @@ A simple GST Management System built with Node.js, Express, React, and MongoDB.
 
 8. **Usage**
 - Open your browser and navigate to http://localhost:3000.
-- For admin operations, log in with:
-  Name: admin
-  Password: admin
-
-- For customer operations, register with new credentials. name should be unique
+- Register new users by providing name and password. name should be unique.
+- To set a user as admin: Go to mongodb database -> users collection -> select a user document -> click edit -> set role='admin'
 
 
 
